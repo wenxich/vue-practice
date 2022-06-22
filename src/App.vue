@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <h1 :class="titleClass">Brutalism</h1>
+  <h1 :class="titleClass">I hate it here</h1>
 </template>
 
 <style>
