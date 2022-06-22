@@ -22,7 +22,7 @@ export default {
 
   <button @click="increment">count is: {{ count }}</button> <!-- on-click events -->
   <p></p>
-  <input v-model="text" placeholder="Watch me change by typing!"> <!-- input text field -->
+  <input v-model="text" type="text" size="4" placeholder="Watch me change by typing!"> <!-- input text field -->
   <p>{{ text }}</p>
 
 </template>
