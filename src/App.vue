@@ -21,8 +21,8 @@ export default {
   <h1 :class="titleClass">Hello World!</h1> <!-- text-styling -->
 
   <button @click="increment">count is: {{ count }}</button> <!-- on-click events -->
-
-  <input v-model="text" placeholder="Type here"> <!-- input text field -->
+  <p></p>
+  <input v-model="text" placeholder="Watch me change by typing!"> <!-- input text field -->
   <p>{{ text }}</p>
 
 </template>
